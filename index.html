@@ -26,7 +26,7 @@
             <li><a href="">About</a></li>
             <li><a href="">Services</a></li>
             <li><a href="">Pages</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
         <div>
@@ -40,31 +40,27 @@
     <!-- secrion-1 start -->
     <section class="welcome-section">
       <div class="container">
-        <div class="welcome-section-block">
-          <div class="welcome-section-content">
-            <h1 class="welcome-section-content__title">
-              Quality cleaning for your home
-            </h1>
-            <p class="welcome-section-content__text">
-              Condimentum mauris sit cursus amet id non neque pharetra nulla ornare sed facilisis senectus dapibus nibh ultrices eget
-              suscipit aliquet et nulla magna lacus penatibus.
-            </p>
-            <div class="welcome-section-bottom">
-              <a href="" class="welcome-section-bottom-btn">Get a free quote</a>
-              <div class="welcome-section-phone">
-                <p class="welcome-section-phone__text">
-                  Call us now
-                </p>
-                <p class="welcome-section-phone__text">
-                  (414) 567 - 2109
-                </p>
-              </div>
-            </div>            
+        <div class="welcome-section-content">
+          <h1 class="welcome-section-content__title">
+            Quality cleaning for your home
+          </h1>
+          <p class="welcome-section-content__text">
+            Condimentum mauris sit cursus amet id non neque pharetra nulla ornare sed facilisis senectus dapibus nibh ultrices eget
+            suscipit aliquet et nulla magna lacus penatibus.
+          </p>
+          <div class="welcome-section-bottom">
+            <a href="" class="welcome-section-bottom-btn">Get a free quote</a>
+            <div class="welcome-section-phone">
+              <p class="welcome-section-phone__text">
+                Call us now
+              </p>
+              <a href="tel: (414) 567 - 2109" class="welcome-section-tel">(414) 567 - 2109</a>
+              <!-- <p class="welcome-section-phone__text">
+                
+              </p> -->
+            </div>
           </div>
-          <div class="welcome-section-image">
-            <img src="./img/welcome-section.png" alt="">
-          </div>
-        </div>        
+        </div>
       </div>
     </section>
     <!-- section-1 end -->
@@ -204,7 +200,7 @@
           <h3 class="sanitization__title">
             Covid-19 sanitization
           </h3>
-          <h2 class="sanitization__title-2">
+          <h2 class="sanitization__title">
             We follow guidelines to keep you safe from the COVID-19 virus
           </h2>
           <p class="sanitization__text">
@@ -216,9 +212,7 @@
               <p class="sanitization-bottom-phone__text">
                 Call us now
               </p>
-              <p class="sanitization-bottom-phone__text">
-                (414) 567 - 2109
-              </p>
+              <a href="tel: (414) 567 - 2109" class="sanitization-tel">(414) 567 - 2109</a>
             </div>
           </div>
         </div>
@@ -240,34 +234,34 @@
               aliqua. Ut enim ad minim veniam.
             </p>
             <div class="areas">
-              <div>
-                <p class="areas__text">
+              <ul class="areas__list">
+                <li class="areas__text areas__text-left">
                   Bathrooms
-                </p>
-                <p class="areas__text">
+                </li>
+                <li class="areas__text areas__text-left">
                   Kitchens
-                </p>
-                <p class="areas__text">
+                </li>
+                <li class="areas__text areas__text-left">
                   Living Rooms
-                </p>
-                <p class="areas__text">
+                </li>
+                <li class="areas__text areas__text-left">
                   Carpets
-                </p>
-              </div>
-              <div>
-                <p class="areas__text">
+                </li>
+              </ul>
+              <ul>
+                <li class="areas__text areas__text-right">
                   Bedrooms
-                </p>
-                <p class="areas__text">
+                </li>
+                <li class="areas__text areas__text-right">
                   Offices
-                </p>
-                <p class="areas__text">
+                </li>
+                <li class="areas__text areas__text-right">
                   Businesses
-                </p>
-                <p class="areas__text">
+                </li>
+                <li class="areas__text areas__text-right">
                   Windows
-                </p>
-              </div>
+                </li>
+              </ul>
             </div>
             <a href="" class="cover-all-btn">Get a free quote</a>
           </div>
@@ -288,19 +282,43 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
               aliqua. Ut enim ad minim veniam.
             </p>
-            <p class="makes-us-content__text-2">
+            <p class="makes-us-content__text">
               Sed ut perspiciatis unde omnis iste natus error sit atem accusantium doloremque laudantiu sed ut.
             </p>
             <div class="achievements">
-              <h2 class="achievements__title">
-                10
-              </h2>
-              <h2 class="achievements__title">
-                5k
-              </h2>
-              <h2 class="achievements__title">
-                20k
-              </h2>
+              <div>
+                <h2 class="achievements__title">
+                  10
+                  <span>
+                    +
+                  </span>
+                </h2>
+                <p class="achievements__text">
+                  Years
+                </p>
+              </div>
+              <div>
+                <h2 class="achievements__title">
+                  5k
+                  <span>
+                    +
+                  </span>
+                </h2>
+                <p class="achievements__text">
+                  Clients
+                </p>
+              </div>
+              <div>
+                <h2 class="achievements__title">
+                  20k
+                  <span>
+                    +
+                  </span>
+                </h2>
+                <p class="achievements__text">
+                  Jobs done
+                </p>
+              </div>                        
             </div>
             <a href="" class="achievements-btn">Get a free quote</a>
           </div>
@@ -370,9 +388,7 @@
               <p class="free-cleaning-phone__text">
                 Call us now
               </p>
-              <p class="free-cleaning-phone__text">
-                (414) 567 - 2109
-              </p>
+              <a href="tel: (414) 567 - 2109" class="free-cleaning-tel">(414) 567 - 2109</a>
             </div>
             <h3 class="free-cleaning-content__title">
               Not convinced yet?
@@ -382,42 +398,44 @@
             </p>
             <a href="" class="free-cleaning-content-btn">Browse our packages</a>
           </div>
-          <div class="free-cleaning-form">
-            <div class="free-cleaning-form-wrap">
-              <div>
-                <p class="free-cleaning-form__text">
-                  Full name
-                </p>
-                <input type="text" class="free-cleaning-form-wrap__input" />
-                <p class="free-cleaning-form__text">
-                  Address
-                </p>
-                <input type="text" class="free-cleaning-form-wrap__input" />
-                <p class="free-cleaning-form__text">
-                  Requested service
-                </p>
-                <input type="text" class="free-cleaning-form-wrap__input" />
+          <div>
+            <form class="free-cleaning-form">
+              <div class="free-cleaning-form-wrap">
+                <div>
+                  <p class="free-cleaning-form__text">
+                    Full name
+                  </p>
+                  <input type="text" class="free-cleaning-form-wrap__input" />
+                  <p class="free-cleaning-form__text">
+                    Address
+                  </p>
+                  <input type="text" class="free-cleaning-form-wrap__input" />
+                  <p class="free-cleaning-form__text">
+                    Requested service
+                  </p>
+                  <input type="text" class="free-cleaning-form-wrap__input" />
+                </div>
+                <div>
+                  <p class="free-cleaning-form__text">
+                    Phone number
+                  </p>
+                  <input type="tel" class="free-cleaning-form-wrap__input" />
+                  <p class="free-cleaning-form__text">
+                    Email
+                  </p>
+                  <input type="email" class="free-cleaning-form-wrap__input" />
+                  <p class="free-cleaning-form__text">
+                    Day of service
+                  </p>
+                  <input type="text" class="free-cleaning-form-wrap__input" />
+                </div>
               </div>
-              <div>
-                <p class="free-cleaning-form__text">
-                  Phone number
-                </p>
-                <input type="tel" class="free-cleaning-form-wrap__input" />
-                <p class="free-cleaning-form__text">
-                  Email
-                </p>
-                <input type="email" class="free-cleaning-form-wrap__input" />
-                <p class="free-cleaning-form__text">
-                  Day of service
-                </p>
-                <input type="text" class="free-cleaning-form-wrap__input" />
-              </div>
-            </div>
-            <p class="free-cleaning-form__text">
-              Add a note
-            </p>
-            <input type="text" class="free-cleaning-form__input" />
-            <button type="submit" class="free-cleaning-form__button">Submit message</button>
+              <p class="free-cleaning-form__text">
+                Add a note
+              </p>
+              <input type="text" class="free-cleaning-form__input" />
+              <button type="submit" class="free-cleaning-form__button">Submit message</button>
+            </form>
           </div>
         </div>
       </div>
@@ -443,20 +461,16 @@
             <a href="" class="twitter"></a>
           </div>
         </div>
-        <div class="contacts">
+        <div id="contact" class="contacts">
           <h4 class="contacts__title">
             Contact us
           </h4>
           <div class="contacts-text-block">
-            <p class="contacts__text">
+            <address class="contacts__adress">
               1827 Nickel Road, Los Angeles, CA, 90017, United States
-            </p>
-            <p class="contacts__text">
-              (414) 567 - 2109
-            </p>
-            <p class="contacts__text">
-              contact@cleaning.com
-            </p>
+            </address>
+            <a href="tel: (414) 567 - 2109" class="contacts__tel">(414) 567 - 2109</a>
+            <a href="mailto: contact@cleaning.com" class="contacts__email">contact@cleaning.com</a>
           </div>
         </div>
         <div class="hours">
@@ -480,9 +494,7 @@
           <h4 class="free-estimate__title">
             Get a free estimate
           </h4>
-          <p class="free-estimate__text">
-            (414) 567 - 2109
-          </p>
+          <a href="tel: (414) 567 - 2109" class="free-estimate__tel">(414) 567 - 2109</a>
           <p class="free-estimate__text">
             Lorem ipsum dolor sit amet ectetur adipiscing elit, sed do eiusmod.
           </p>
@@ -490,7 +502,7 @@
         </div>
       </section>
       <section class="end-footer">
-        <img src="./img/cleaning-logo.png" alt="">
+        <a href=""><img src="./img/cleaning-logo.png" alt="" /></a>
         <div class="copyright">
           <p class="copyright__text">
             Copyright © Cleaning X | Designed by <a href="">BRIX Templates</a>
